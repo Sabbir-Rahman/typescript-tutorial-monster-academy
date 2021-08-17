@@ -1,2 +1,6 @@
-var a = "1";
-console.log("aaa", a);
+var hello = "world";
+hello = "hello world";
+var getFullName = function (name, surename) {
+    return name + " " + surename;
+};
+console.log(getFullName("Sabbir", "Rahman"));
